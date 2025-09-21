@@ -11,7 +11,7 @@ export default function App({ Component, pageProps }: AppProps) {
       <PersistGate loading={null} persistor={persistor}>
         <div className='min-h-screen'>
           <Nav />
-          <main className='p-6'>
+          <main className=''>
             <Component {...pageProps} />
           </main>
         </div>
